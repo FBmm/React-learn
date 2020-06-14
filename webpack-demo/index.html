@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <meta mode="" time="<%= htmlWebpackPlugin.options.time %>"></meta>
     <script src="./dist/main.js"></script>
 </head>
 <body>
+    <div><%= htmlWebpackPlugin.options.global %></div>
     hello
 </body>
 </html>
